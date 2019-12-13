@@ -1,7 +1,9 @@
 
-public class UnBoxing {
+public class UnBoxing
+{
 
-	public static void main(String[] args) {
+	public static void main(String[] args)
+	{
 		// TODO Auto-generated method stub 
 		
 		
