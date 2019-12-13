@@ -1,5 +1,6 @@
 
-public class ObjectClass {
+public class ObjectClass 
+{
 
 	
 	static int last_roll=100;
