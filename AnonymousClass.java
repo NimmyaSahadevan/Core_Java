@@ -11,19 +11,20 @@ abstract class Employee
 	abstract void fun();
 }
 
-public class AnonymousClass {
+public class AnonymousClass 
+{
 
-	public static void main(String[] args) {
+	public static void main(String[] args)
+	{
 		Employee e=new Employee()
 		{
-	    public void fun()
-	    {
-		
-		System.out.println("Hiiiiii");
-	   }
+	        	 public void fun()
+	        	 {
+				System.out.println("Hiiiiii");
+	  		 }
 
-	};
+		};
 	
-     e.fun();
-}
+       e.fun();
+	}
 }
