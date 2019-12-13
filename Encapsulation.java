@@ -1,13 +1,15 @@
 import java.util.Scanner;
-public class Encapsulation {
+public class Encapsulation
+{
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		
 		Scanner sc=new Scanner(System.in);
 		 String name,addr,cno,email,pt,pid;
 		System.out.println("REGISTRATION");
 		System.out.println("Enter your name:");
-	    name=sc.nextLine();
+	        name=sc.nextLine();
 		System.out.println("Enter your address:");
 		addr=sc.nextLine();
 		System.out.println("Enter your contact number:");
@@ -33,7 +35,8 @@ public class Encapsulation {
 	}
 }
 
- class Getset{
+ class Getset
+ {
 	 
 	 String name,addr,cno,email,pt,pid;
 	
@@ -42,7 +45,7 @@ public class Encapsulation {
 		 
 		this.name=name; 
 		this.addr=addr;  
-		 this.cno=cno; 
+		this.cno=cno; 
 		this.email=email;
 		this.pt=pt;
 		this.pid=pid;
