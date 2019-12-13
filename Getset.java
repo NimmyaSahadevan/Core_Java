@@ -1,17 +1,19 @@
 import java.util.Scanner;
 
-public class Getset {
+public class Getset
+{
 	
 	 String name,addr,cno,email,pt,pid;
 
-	public static void main(String[] args) {
+	 public static void main(String[] args) 
+	 {
 		// TODO Auto-generated method stub
 
 		Scanner sc=new Scanner(System.in);
-		 String name,addr,cno,email,pt,pid;
+		String name,addr,cno,email,pt,pid;
 		System.out.println("REGISTRATION");
 		System.out.println("Enter your name:");
-	    name=sc.nextLine();
+	        name=sc.nextLine();
 		System.out.println("Enter your address:");
 		addr=sc.nextLine();
 		System.out.println("Enter your contact number:");
@@ -75,8 +77,4 @@ public class Getset {
 	{
 		return pid;
 	}
-	  
-	 
-	 
-	 
 }
