@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class Registration {
+public class Registration 
+{
 	 String name,addr,cno,email,pt,pid;
 	
 	
@@ -19,14 +20,15 @@ public class Registration {
 		
 	}
 	
- public static void main(String[] args) {
+ public static void main(String[] args)
+ {
 		// TODO Auto-generated method stub
 		
 		Scanner sc=new Scanner(System.in);
 		 String name,addr,cno,email,pt,pid;
 		System.out.println("REGISTRATION");
 		System.out.println("Enter your name:");
-	    name=sc.nextLine();
+	        name=sc.nextLine();
 		System.out.println("Enter your address:");
 		addr=sc.nextLine();
 		System.out.println("Enter your contact number:");
@@ -46,26 +48,12 @@ public class Registration {
 	{
 		
 		System.out.println("\nyour details are as follows:");
-	    System.out.println("\nName:"+name);
+	        System.out.println("\nName:"+name);
 		System.out.println("Address:"+addr);
 		System.out.println("Contact Number:"+cno);
 		System.out.println("Email:"+email);
 		System.out.println("Proof type:"+pt);
 		System.out.println("Proof id:"+pid);
 		
-		
-		
-		
-		
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
 }
