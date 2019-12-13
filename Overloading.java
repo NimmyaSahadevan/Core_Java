@@ -28,7 +28,7 @@ public class Overloading
 	public static void main(String[] args) 
 	{
 		
-	    Overloading o=new Overloading();
+ 		Overloading o=new Overloading();
 		o.Area(5);
 		o.Area(5,7);
 		o.Area(5f,6f);
