@@ -1,5 +1,6 @@
 
-public class Overloading {
+public class Overloading
+{
 	
 	
 	public void Area(int a)
@@ -24,7 +25,8 @@ public class Overloading {
 	
 	
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		
 	    Overloading o=new Overloading();
 		o.Area(5);
@@ -33,9 +35,4 @@ public class Overloading {
 		o.Area(5f);
 
 	}
-
-	
-	
-	
-	
 }
