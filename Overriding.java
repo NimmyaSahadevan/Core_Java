@@ -1,7 +1,8 @@
 import java.util.Scanner;
 
 
- class poly{
+ class poly
+ {
 	
 	
 	 public void Area(int a)
@@ -32,7 +33,8 @@ import java.util.Scanner;
 	 
 }
 
-public class Overriding extends poly{
+public class Overriding extends poly
+{
 	
 	public void Area(int a)
 	{
@@ -48,32 +50,22 @@ public class Overriding extends poly{
 		System.out.printf("\nArea of Triangle:\n%.2f\n",(0.5*b*h));
 	}
 	
-/*	public void Area(float r)
-	{
-		System.out.println("\nArea of Circle:\n"+(3.14*(r*r)));
-	}*/
+
 	
-	
-	
-	
-	public static void main(String[] args) {	
-		
-		
-		  poly o=new poly();
-		  poly p=new Overriding();
-			o.Area(5);
-			o.Area(5,7);
-			o.Area(5f,6f);
-			o.Area(5f);
+	public static void main(String[] args)
+	{	
+		 poly o=new poly();
+		 poly p=new Overriding();
+		 o.Area(5);
+		 o.Area(5,7);
+		 o.Area(5f,6f);
+		 o.Area(5f);
 			
-			p.Area(10);
-			p.Area(3,9);
-			p.Area(9.1f,7f);
-			p.Area(5.5f);
+		 p.Area(10);
+		 p.Area(3,9);
+		 p.Area(9.1f,7f);
+		 p.Area(5.5f);
 			
-		
-		
-		
 	}
 
 }
