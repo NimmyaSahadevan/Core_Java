@@ -3,11 +3,13 @@
 //INNER CLASS
 
 
-public class OuterClass {
+public class OuterClass
+{
 	
 	private int a=101;
 	
-	 class InnerClass {
+	 class InnerClass
+	 {
 		
 		public void display()
 		{
@@ -17,7 +19,8 @@ public class OuterClass {
 		}
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args)
+	{
 		
         //  OuterClass o=new OuterClass();
         //  OuterClass.InnerClass i=o.new InnerClass();
