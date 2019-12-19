@@ -10,7 +10,6 @@ public class ConcatExample1
 		s1=s1.concat(" is immutable so assign explicitly"); 
 		// gets concatenated because change is stored in s1
 		System.out.println(s1);
-
 	}
 
 }
