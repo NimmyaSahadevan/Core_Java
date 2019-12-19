@@ -11,7 +11,7 @@ public class ConcatExample3
 		System.out.println(s4);
 		String s5=s1.concat("!!!");
 		System.out.println(s5);
-		String s6=s1.concat("@").concat(s2);  //Concatenating Special chars 
+		String s6=s1.concat("@").concat(s2);   //Concatenating Special chars 
 		System.out.println(s6);
 	}
 
